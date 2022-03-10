@@ -121,33 +121,3 @@ body {
 .app-download:nth-child(2) {
     background-image: url("./googleplay-button.png");
 }
-
-/* media queries */
-
-@media (max-width: 1024px) {
-    .instagram-wrapper {
-        width: 90%;
-    }
-}
-
-@media (max-width: 650px) {
-    .body {
-        background-color: #ffffff;
-    }
-
-    .group {
-        border: 1px solid transparent;
-    }
-
-    .instagram-wrapper {
-        width: 90%;
-    }
-
-    .instagram-phone {
-        display: none;
-    }
-
-    .instagram-continue {
-        width: 100%;
-    }
-}
